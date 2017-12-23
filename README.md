@@ -34,6 +34,8 @@ My final solution is a two level stacking..<br />
 • In the first level ExtraTreeClassifier (default), RandomForest(default),XGB
 native model with tuned parameters) and a 2 hidden network Neural network models are chosen as meta features ( since they gave the most different accurate predictions).<br />
 
-• In the second level the raw features and the 4 four metafeatures are trained on the same XGB,Neural network and a Randomised ExtraTreeClassifer and these three models predictions are bagged using the weight as  **0.9* [XGBOOST^0.7) *NN^0.3] + 0.1 * [ET]** ( the weights are tuned)
+• In the second level the raw features and the 4 four metafeatures are trained on the same XGB,Neural network and a Randomised ExtraTreeClassifer and these three models predictions are bagged using the weight as .<br />
+
+                              0.9* [XGBOOST^0.7) *NN^0.3] + 0.1 * [ET]( the weights are tuned)
 
 

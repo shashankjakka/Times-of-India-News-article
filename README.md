@@ -38,4 +38,6 @@ native model with tuned parameters) and a 2 hidden network Neural network models
 
                               0.9* [XGBOOST^0.7 * NN^0.3] + 0.1 * [ET]( the weights are tuned)
 
+**Rank on Private Leaderboard:** 3 
 
+**Source:**  https://www.techgig.com/hackathon/leaderboard/NewsArticeRecommender

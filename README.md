@@ -36,6 +36,6 @@ native model with tuned parameters) and a 2 hidden network Neural network models
 
 • In the second level the raw features and the 4 four metafeatures are trained on the same XGB,Neural network and a Randomised ExtraTreeClassifer and these three models predictions are bagged using the weight as .<br />
 
-                              0.9* [XGBOOST^0.7) *NN^0.3] + 0.1 * [ET]( the weights are tuned)
+                              0.9* [XGBOOST^0.7 * NN^0.3] + 0.1 * [ET]( the weights are tuned)
 
 

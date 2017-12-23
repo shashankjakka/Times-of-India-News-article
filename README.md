@@ -5,6 +5,11 @@ The data set contains adServer logs with requests, item recommendations and user
 
 The objective is to expose ad impression decisioning options and machine behaviour to end users. The participants will be training their models on train data set, and would predict recommendations for test data; these recommendations will be evaluated by Colombia’s team based on the feedback on various aspects of the problem which includes RMSE of the final submission, tech and product approach along with any innovative solution (i.e. not available in the industry currently).<br />
 
+**Rank on Private Leaderboard:** 3 <br />
+
+**Source:**  https://www.techgig.com/hackathon/leaderboard/NewsArticeRecommender<br />
+
+
 
 ## Feature Engineering 
 
@@ -38,6 +43,3 @@ native model with tuned parameters) and a 2 hidden network Neural network models
 
                               0.9* [XGBOOST^0.7 * NN^0.3] + 0.1 * [ET]( the weights are tuned)
 
-**Rank on Private Leaderboard:** 3 
-
-**Source:**  https://www.techgig.com/hackathon/leaderboard/NewsArticeRecommender

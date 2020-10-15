@@ -1,4 +1,4 @@
-# Times-of-India-News-article
+# Times-of-India-News-articles
 Ad click prediction for Times of India 
 
 The data set contains adServer logs with requests, item recommendations and user action (clicked or not); along with item (articles only) details available to be recommended.<br />
@@ -23,7 +23,7 @@ The objective is to expose ad impression decisioning options and machine behavio
 
 **Count**: From the UVH data present in impression attributes, the no of ads clicked by the user till then is taken into account.
 
-**User to User** : Based on the similars user who visited the same item ids, the chance of user visiting other item ids are calculated and taken as a feature.
+**User to User** : Based on the similars user who visited the same item id, the chance of user visiting other item id are calculated and taken as a feature.
 
 
 ## Approach 

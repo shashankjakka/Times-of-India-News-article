@@ -1,4 +1,4 @@
-# Times-of-India-News-article
+# Times-Of-India-News-article
 Ad click prediction for Times of India 
 
 The data set contains adServer logs with requests, item recommendations and user action (clicked or not); along with item (articles only) details available to be recommended.<br />
